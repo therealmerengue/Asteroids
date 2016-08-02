@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Asteroid">
+    <Position X="11" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAAAAAACBAIAAAAABAIAAAAABgAAAAAAEAAA=</HashCode>
+      <FileName>Asteroid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIIAFABAAAAAAAAAEAAIAAAAgIAAAAQAAAAAA=</HashCode>
+      <FileName>Framework.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAhAgAgAAAAgQAQAACASCAAIiAQAAUiAAAAAAMAAA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABMAgACIkAMACAAIAAIAAAAQCQAAAACARIgAIEACA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GOCollidable">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAABAAAAAAAAAAAKAAAAAAAAAEAAAAgAA=</HashCode>
+      <FileName>GOCollidable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GOHittable">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAAAAAAAgAABEAAQAAAAAAAgAEICIAAAAAAAAAg=</HashCode>
+      <FileName>GOHittable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graphics" Collapsed="true">
+    <Position X="29.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAhAAAAAAAAiQBQAAAAAAACEAAAAIGIAAAAAAEAAE=</HashCode>
+      <FileName>Graphics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HeavyShip" Collapsed="true">
+    <Position X="14" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQQgAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>HeavyShip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightShip">
+    <Position X="16.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAQAAAAAE=</HashCode>
+      <FileName>LightShip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediumShip">
+    <Position X="11.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAk=</HashCode>
+      <FileName>MediumShip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Particle">
+    <Position X="23.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAASACAAIAAAAAAAAAEAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Particle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerUp">
+    <Position X="20.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAggBAAAAAACAAAAAAAAAAIAAAAAAQACCAAAEAAA=</HashCode>
+      <FileName>PowerUp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerUpHealth">
+    <Position X="21.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAACAAAAAAAAAAAIAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>PowerUpHealth.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerUpPlus">
+    <Position X="23.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAACAEAAAAAA=</HashCode>
+      <FileName>PowerUpPlus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerUpShield" Collapsed="true">
+    <Position X="17" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAgABAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>PowerUpShield.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerUpSpeed">
+    <Position X="19.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAgAIAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>PowerUpSpeed.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projectile">
+    <Position X="17" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAgAAAAAAAAAAAAAAAAAAAAAEIAA=</HashCode>
+      <FileName>Projectile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Renderer" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAgAAAAAAAAAAAAAAAAAAAAAQAAAAAACAAEAEAAA=</HashCode>
+      <FileName>Renderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shader" Collapsed="true">
+    <Position X="26.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgEQAAAACAAgBAAAAAAAAAAAAAgAIAABAAAAAAAAAA=</HashCode>
+      <FileName>Shader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ship">
+    <Position X="14" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAIgGAAAg8CWAAIgIEAAAAYqACQCAAhAIAQAVAJE=</HashCode>
+      <FileName>Ship.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteRenderer" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>SpriteRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextRenderer" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABgAAEAAAAAAACAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TextRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture" Collapsed="true">
+    <Position X="28" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAEABAAkESAQAAAACAAAAAAAABAAAIAAEAAAAA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="GameState" Collapsed="true">
+    <Position X="26.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAABAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
