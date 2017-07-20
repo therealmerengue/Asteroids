@@ -13,7 +13,7 @@ Ship::~Ship()
 
 Ship::Ship(glm::vec2 pos, glm::vec2 size, std::vector<GameObject*>* pGObjects, float velocity, glm::ivec2 maxCoords)
 	: GameObject(pos, size, velocity, maxCoords), GOHittable(pos, size, velocity, maxCoords), GOCollidable(pos, size, pGObjects, velocity, maxCoords), 
-	score(0), specialsLeft(2), specialAbilityTimeCounter(0), maxVelocity(velocity),
+	score(0), specialsLeft(2), specialAbilityTimeCounter(0), maxVelocity(velocity / 3),
 	extraDamage(false), specialAbilityActive(false), hitTimer(0),
 	frontPosition(glm::vec2(this->centerPosition.x, this->centerPosition.y - this->size.y / 2)),
 	rearPosition(glm::vec2(this->centerPosition.x, this->centerPosition.y + this->size.y / 2))
@@ -55,7 +55,7 @@ void Ship::move(float dt)
 
 void Ship::rotateLeft()
 {
-	this->newDirection -= 3 * M_PI / 180;
+	this->newDirection -=  M_PI / 180;
 	if (this->newDirection > 2 * M_PI)
 		this->newDirection = 0;
 	else if (this->newDirection < 0)
@@ -68,7 +68,7 @@ void Ship::rotateLeft()
 
 void Ship::rotateRight()
 {
-	this->newDirection += 3 * M_PI / 180;
+	this->newDirection +=  M_PI / 180;
 	if (this->newDirection >= 2 * M_PI)
 		this->newDirection = 0;
 	else if (this->newDirection <= 0)
